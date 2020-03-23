@@ -58,6 +58,7 @@ SELECT name FROM people;
 UPDATE people SET name = 'Krusty The Clown' WHERE name = 'Crusty the Clown';
 SELECT name FROM people;
 -- Return ONLY Homer Simpson’s name from the ‘people’ table.
+SELECT name FROM people WHERE name = 'Homer Simpson';
 -- The cinema is showing ‘Batman Begins’, but Batman is DC, not Marvel! Delete the entry from the ‘movies’ table.
 -- We forgot one of the main characters! Add Bart Simpson to the ‘people’ table
 -- Eric Cartman has decided to hijack our movie evening, Remove him from the table of people.

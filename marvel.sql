@@ -77,3 +77,11 @@ SELECT * FROM movies;
 SELECT show_time FROM movies WHERE title = 'Iron Man 2';
 UPDATE movies SET show_time = '23:55' WHERE title = 'Iron Man 3';
 SELECT * FROM movies;
+
+-- Deleting multiple entries with one command.
+
+-- DELETE FROM movies
+-- WHERE (title = 'Ant-Man')
+-- OR (title = 'Thor: The Dark World');
+--
+-- SELECT * FROM movies;
